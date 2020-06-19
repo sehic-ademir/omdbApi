@@ -1,5 +1,7 @@
 ## IMDB Logo from 
 ### https://codepen.io/geoffyuen/pen/jFsvh
+## Star IMG from
+### http://clipart-library.com/img/2184494.png
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
