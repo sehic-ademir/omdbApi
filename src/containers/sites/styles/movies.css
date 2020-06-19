@@ -1,0 +1,44 @@
+.movie-card-right-img {
+    background-image: linear-gradient(to right, rgba(53, 58, 64,1) 2%, rgba(248, 249, 251,0) 15%, rgba(0,0,0,0));
+}
+.form-control {
+    border-radius: .25rem !important;
+}
+.cover-photo {
+    background-position: center center;
+    background-origin: border-box;
+}
+.imdb-logo-small {
+    font: 1em/1 Impact, HelveticaNeue-CondensedBold, sans-serif; 
+    color: #000;
+    text-shadow: 0 0 .15em #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: .25em .35em;
+    border-radius: .15em;
+    background: radial-gradient(#ffffb8, #ce981d);
+}
+    .imdb-logo-small:hover {
+      background: radial-gradient(darken(#ffffb8, 50%), lighten(#ce981d, 10%));
+      color: #000;
+    }
+    @media screen and (min-width: 768px) {
+    .mobile-photo{
+        display: none;
+    }
+}
+.arrow {
+    position: fixed;
+    top: 50%;
+    cursor: pointer;
+}
+.arrow-left {
+    left: 10%;
+}
+.arrow-right {
+    right: 10%;
+}
+.no-border {
+    border: none !important;
+}

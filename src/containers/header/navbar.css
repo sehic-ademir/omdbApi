@@ -1,0 +1,26 @@
+nav{
+background-image: linear-gradient(to left, rgba(232, 233, 235,1) 25%, rgba(204, 205, 198,1) );
+
+}
+nav * {
+    text-decoration: none !important;
+}
+.imdb-logo {
+    font: 2em/1 Impact, HelveticaNeue-CondensedBold, sans-serif; 
+    color: #000;
+    text-shadow: 0 0 .15em #fff;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: .25em .35em;
+    border-radius: .15em;
+    background: radial-gradient(#ffffb8, #ce981d);
+}
+    .imdb-logo:hover {
+      background: radial-gradient(darken(#ffffb8, 50%), lighten(#ce981d, 10%));
+      color: #000;
+    }
+  
+
+  
+  
